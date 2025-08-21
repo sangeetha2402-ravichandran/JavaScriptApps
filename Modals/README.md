@@ -22,19 +22,4 @@ The modal can be opened with buttons and closed in multiple ways (close button, 
 
 ---
 
-## ⚡ How It Works
-
-### 1. HTML
-- Three buttons with the class `.show-modal` open the modal.  
-- The modal (`.modal`) contains some text and a **close button** (`.close-modal`).  
-- The overlay (`.overlay`) covers the entire screen behind the modal.  
-- Both modal and overlay start hidden by default using the `.hidden` class.  
-
-```html
-<div class="modal hidden">
-  <button class="close-modal">&times;</button>
-  <h1>I'm a modal window 😍</h1>
-  <p>Modal content goes here...</p>
-</div>
-<div class="overlay hidden"></div>
 
